@@ -1,17 +1,13 @@
 {
-  "name": "Task8-TDD-Postnet",
+  "name": "ThoughtworksTask",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "mocha spec",
+    "test": "node run-tests.js",
     "index": "node index.js"
   },
   "dependencies": {
-    "chai": "3.4.1",
-    "sinon": "1.17.2",
-    "mocha": "2.2.5",
-    "sinon-chai" : "2.8.0",
-    "lodash": "3.9.3"
+    "jasmine": "^2.6.0"
   },
   "author": "",
   "license": "ISC"
