@@ -9,10 +9,10 @@ let arr = [1,2,6,3,77];
 console.log(arr + "平方是" + numQuare(arr));
 
 function numQuare(arr){
-    let result =[]
+    let result =[];
 
     arr.forEach(item=> {
-        result.push(Math.pow(item, 2));
+        result.push(item * item);
     });
 
     return result;
