@@ -30,3 +30,5 @@ apple.getName();
 Fruit.prototype.setName("pear")
 Fruit.prototype.getName()
 apple.printName();
+console.log("实类对象：" + apple.hasOwnProperty('name'));
+console.log("实类方法：" + apple.hasOwnProperty('getPrice'))
