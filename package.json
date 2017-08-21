@@ -10,5 +10,8 @@
     "jasmine": "^2.6.0"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
 }

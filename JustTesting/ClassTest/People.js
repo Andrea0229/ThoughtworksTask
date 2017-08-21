@@ -12,6 +12,10 @@ class People{
         console.log(this.id + ":" + this.name);
     }
 }
+
+/*class People{
+
+}*/
 let p1 = new People("01", "bendan");
 console.log(typeof (p1));
 p1.printMsg();
