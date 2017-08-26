@@ -7,7 +7,9 @@
     "index": "node index.js"
   },
   "dependencies": {
-    "jasmine": "^2.6.0"
+    "cli-interact": "^0.1.9",
+    "jasmine": "^2.6.0",
+    "readline-sync": "^1.4.7"
   },
   "author": "",
   "license": "ISC",
